@@ -1,0 +1,18 @@
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    border:5px solid white;
+    
+}
+  
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    background-color: black;
+}
